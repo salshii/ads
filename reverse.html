@@ -1,0 +1,22 @@
+<html>
+<body>
+<h1>reverse </h1>
+<script>
+var x=parseInt(prompt('enter the number'));
+var rev=0;
+var temp=x;
+while(x>0){
+num=x%10;
+rev=(rev*10)+num;
+x=Math.floor(x/10);
+} 
+document.write('reverse of number',rev +"<br>");
+if(rev==temp){
+document.write('number is palindrome');
+}else{
+document.write('number is not palindrome');
+
+}
+</script>
+</body>
+</html>      

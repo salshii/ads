@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>
+fibonaaci</title>
+</head>
+<body>
+<h1>fibonacci series</h1>
+<script>
+const x= parseInt(prompt('enter the limit'));
+let n1=0,n2=1,n3;
+document.write(n1+"<br>");
+document.write(n2+"<br>");
+for(let i=1; i<=x ; i++){
+
+n3=n1+n2;
+    document.write(n3+"<br>");
+    n1=n2;
+    n2=n3;
+}
+</script>
+</body>
+</html>
